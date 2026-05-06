@@ -1,0 +1,953 @@
+{
+  "id": "www.alaskanac.com_1777971649416",
+  "request": {
+    "url": "https://www.alaskanac.com/",
+    "scanMode": "quick",
+    "businessType": "auto",
+    "maxPages": 10
+  },
+  "scannedAt": "2026-05-05T09:00:49.415Z",
+  "domain": "www.alaskanac.com",
+  "detectedBusinessType": "contractor",
+  "pages": [
+    {
+      "url": "https://www.alaskanac.com/",
+      "finalUrl": "https://www.alaskanac.com/",
+      "statusCode": 200,
+      "pageType": "home",
+      "title": "Alaskan Air Conditioning & Heating | Arizona HVAC",
+      "metaDescription": "Alaskan Air Conditioning & Heating provides AC repair and AC installation services in Tucson, AZ and Phoenix, AZ.",
+      "h1s": [
+        "Air Conditioning Services in Arizona"
+      ],
+      "h2s": [
+        "Keeping you chill since 1972",
+        "Why Alaskan AC"
+      ],
+      "canonical": "https://www.alaskanac.com/",
+      "noindex": false,
+      "wordCount": 560,
+      "imageCount": 39,
+      "missingAltCount": 16,
+      "phones": [
+        "844-364-5800",
+        "+18443645800",
+        "(844) 364-5800"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Call  Now: 844-364-5800",
+        "Book now",
+        "Schedule Now(Tucson)",
+        "Schedule Now(Phoenix)"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "SearchAction",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "CreativeWork",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 29
+    },
+    {
+      "url": "https://www.alaskanac.com/tucson-az/",
+      "finalUrl": "https://www.alaskanac.com/tucson-az/",
+      "statusCode": 200,
+      "pageType": "location",
+      "title": "Alaskan Air Conditioning & Heating | Tucson, AZ",
+      "metaDescription": "Alaskan Air Conditioning & Heating provides Tucson AC repair and AC installation services.",
+      "h1s": [
+        "HVAC Repair Services in Tucson, AZ"
+      ],
+      "h2s": [
+        "Keeping Tucson chill since 1972",
+        "Why Alaskan AC",
+        "HVAC Services in Tucson, AZ",
+        "Tucson Service Areas"
+      ],
+      "canonical": "https://www.alaskanac.com/tucson-az/",
+      "noindex": false,
+      "wordCount": 1088,
+      "imageCount": 40,
+      "missingAltCount": 11,
+      "phones": [
+        "520-265-1500",
+        "+15202651500",
+        "(520) 815-5555",
+        "(520) 265-1500"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Book now",
+        "Schedule Now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "HVACBusiness",
+        "PostalAddress",
+        "ContactPoint",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "CreativeWork",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 23
+    },
+    {
+      "url": "https://www.alaskanac.com/phoenix-az/",
+      "finalUrl": "https://www.alaskanac.com/phoenix-az/",
+      "statusCode": 200,
+      "pageType": "location",
+      "title": "Alaskan Air Conditioning & Heating | Phoenix, AZ",
+      "metaDescription": "We specialize in HVAC repair services - air conditioning, heating and furnaces, and indoor air quality - in Phoenix, AZ. See our reviews by neighborhood",
+      "h1s": [
+        "HVAC Repair Services in Phoenix, AZ"
+      ],
+      "h2s": [
+        "Keeping Phoenix chill since 1972",
+        "Why Alaskan AC Phoenix",
+        "HVAC Services in Phoenix, AZ",
+        "Phoenix Service Areas"
+      ],
+      "canonical": "https://www.alaskanac.com/phoenix-az/",
+      "noindex": false,
+      "wordCount": 1139,
+      "imageCount": 41,
+      "missingAltCount": 12,
+      "phones": [
+        "602-783-8111",
+        "+16027838111",
+        "(602) 529-5555",
+        "(602) 783-8111"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": true,
+      "hasForm": false,
+      "ctaTexts": [
+        "Book Now",
+        "Schedule Now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "HVACBusiness",
+        "PostalAddress",
+        "ContactPoint",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "CreativeWork",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 23
+    },
+    {
+      "url": "https://alaskanac.com/ac-maintenance/",
+      "finalUrl": "https://www.alaskanac.com/ac-maintenance/",
+      "statusCode": 200,
+      "pageType": "service",
+      "title": "AC Maintenance | Alaskan Air Conditioning & Heating",
+      "metaDescription": "Add years to the life of your ac unit with regular AC maintenance. Call Alaskan Air Conditioning & Heating today to learn more.",
+      "h1s": [
+        "AC Maintenance"
+      ],
+      "h2s": [
+        "Your A/C isn’t ready until it’s ALASKAFIED",
+        "We do AC Maintenance the Alaskan way, Not the cheap way!"
+      ],
+      "canonical": "https://www.alaskanac.com/ac-maintenance/",
+      "noindex": false,
+      "wordCount": 647,
+      "imageCount": 6,
+      "missingAltCount": 2,
+      "phones": [
+        "844-364-5800",
+        "+18443645800",
+        "(844) 364-5800"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Call  Now: 844-364-5800",
+        "Book now",
+        "Schedule Now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 0
+    },
+    {
+      "url": "https://alaskanac.com/air-conditioning-service/",
+      "finalUrl": "https://www.alaskanac.com/air-conditioning-service/",
+      "statusCode": 200,
+      "pageType": "other",
+      "title": "Air Conditioning Service | Phoenix, Tempe, Tucson, Glendale & Scottsdale",
+      "metaDescription": "Air conditioning repair & install service near Tempe, Tucson, Glendale, Scottsdale & Phoenix. Call Alaskan Air Conditioning and Heating for a free quote (602) 252-7526.",
+      "h1s": [
+        "AC Services for Tucson and Phoenix"
+      ],
+      "h2s": [
+        "Air Conditioning Service for Phoenix, Tempe & Tucson"
+      ],
+      "canonical": "https://www.alaskanac.com/air-conditioning-service/",
+      "noindex": false,
+      "wordCount": 386,
+      "imageCount": 4,
+      "missingAltCount": 2,
+      "phones": [
+        "844-364-5800",
+        "+18443645800",
+        "(844) 364-5800"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Call  Now: 844-364-5800",
+        "Book now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 0
+    },
+    {
+      "url": "https://alaskanac.com/heating-service/",
+      "finalUrl": "https://www.alaskanac.com/heating-service/",
+      "statusCode": 200,
+      "pageType": "other",
+      "title": "Heating Services | Alaskan Air Conditioning and Heating",
+      "metaDescription": "Since 1972, Alaskan has been providing expert heating services in Phoenix and Tucson.",
+      "h1s": [
+        "Furnace and Heating Services in Phoenix and Tucson"
+      ],
+      "h2s": [
+        "Heating Services for Phoenix, Tempe, and Tucson"
+      ],
+      "canonical": "https://www.alaskanac.com/heating-service/",
+      "noindex": false,
+      "wordCount": 400,
+      "imageCount": 4,
+      "missingAltCount": 2,
+      "phones": [
+        "844-364-5800",
+        "+18443645800",
+        "(844) 364-5800"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Call  Now: 844-364-5800",
+        "Book now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 0
+    },
+    {
+      "url": "https://alaskanac.com/indoor-air-quality/",
+      "finalUrl": "https://www.alaskanac.com/indoor-air-quality/",
+      "statusCode": 200,
+      "pageType": "other",
+      "title": "Indoor Air Quality (IAQ) | Alaskan Air Conditioning and Heating",
+      "metaDescription": "Breathe easy at home with healthy indoor air quality. Call Alaskan Air Conditioning and Heating in Phoenix and Tucson to discuss your options today!",
+      "h1s": [
+        "Indoor Air Quality (IAQ)"
+      ],
+      "h2s": [],
+      "canonical": "https://www.alaskanac.com/indoor-air-quality/",
+      "noindex": false,
+      "wordCount": 424,
+      "imageCount": 3,
+      "missingAltCount": 2,
+      "phones": [
+        "844-364-5800",
+        "+18443645800",
+        "(844) 364-5800"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Call  Now: 844-364-5800",
+        "Book now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 0
+    },
+    {
+      "url": "https://alaskanac.com/phoenix-az/",
+      "finalUrl": "https://www.alaskanac.com/phoenix-az/",
+      "statusCode": 200,
+      "pageType": "location",
+      "title": "Alaskan Air Conditioning & Heating | Phoenix, AZ",
+      "metaDescription": "We specialize in HVAC repair services - air conditioning, heating and furnaces, and indoor air quality - in Phoenix, AZ. See our reviews by neighborhood",
+      "h1s": [
+        "HVAC Repair Services in Phoenix, AZ"
+      ],
+      "h2s": [
+        "Keeping Phoenix chill since 1972",
+        "Why Alaskan AC Phoenix",
+        "HVAC Services in Phoenix, AZ",
+        "Phoenix Service Areas"
+      ],
+      "canonical": "https://www.alaskanac.com/phoenix-az/",
+      "noindex": false,
+      "wordCount": 1139,
+      "imageCount": 41,
+      "missingAltCount": 12,
+      "phones": [
+        "602-783-8111",
+        "+16027838111",
+        "(602) 529-5555",
+        "(602) 783-8111"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": true,
+      "hasForm": false,
+      "ctaTexts": [
+        "Book Now",
+        "Schedule Now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "HVACBusiness",
+        "PostalAddress",
+        "ContactPoint",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "CreativeWork",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 23
+    },
+    {
+      "url": "https://alaskanac.com/tucson-az/",
+      "finalUrl": "https://www.alaskanac.com/tucson-az/",
+      "statusCode": 200,
+      "pageType": "location",
+      "title": "Alaskan Air Conditioning & Heating | Tucson, AZ",
+      "metaDescription": "Alaskan Air Conditioning & Heating provides Tucson AC repair and AC installation services.",
+      "h1s": [
+        "HVAC Repair Services in Tucson, AZ"
+      ],
+      "h2s": [
+        "Keeping Tucson chill since 1972",
+        "Why Alaskan AC",
+        "HVAC Services in Tucson, AZ",
+        "Tucson Service Areas"
+      ],
+      "canonical": "https://www.alaskanac.com/tucson-az/",
+      "noindex": false,
+      "wordCount": 1088,
+      "imageCount": 40,
+      "missingAltCount": 11,
+      "phones": [
+        "520-265-1500",
+        "+15202651500",
+        "(520) 815-5555",
+        "(520) 265-1500"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Book now",
+        "Schedule Now"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "HVACBusiness",
+        "PostalAddress",
+        "ContactPoint",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "CreativeWork",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 23
+    },
+    {
+      "url": "https://alaskanac.com/new-air-conditioning-system/",
+      "finalUrl": "https://www.alaskanac.com/ac-installation/",
+      "statusCode": 200,
+      "pageType": "service",
+      "title": "#1 AC Installation in AZ | FREE Quotes on New AC Units from Alaskan",
+      "metaDescription": "FREE AC installation & AC replacement quotes from Alaskan Air Conditioning & Heating in the Phoenix, Tempe, and Tucson areas. New AC Units from the Experts at Alaskan",
+      "h1s": [
+        "AC Installation & Replacement"
+      ],
+      "h2s": [
+        "Get to Know an Obsessive Polar Bear",
+        "Obsessed about The Grizzly",
+        "Obsessive about doing it right",
+        "Obsessed with Your Comfort",
+        "Obsessive About Ducts",
+        "Obsessive About NOT Wasting Your Time",
+        "A Celebration of Polar Bears"
+      ],
+      "canonical": "https://www.alaskanac.com/ac-installation/",
+      "noindex": false,
+      "wordCount": 693,
+      "imageCount": 9,
+      "missingAltCount": 2,
+      "phones": [
+        "844-364-5800",
+        "+18443645800",
+        "(844) 364-5800"
+      ],
+      "emails": [],
+      "hasAddress": false,
+      "hasMap": false,
+      "hasHours": false,
+      "hasForm": false,
+      "ctaTexts": [
+        "Call  Now: 844-364-5800",
+        "Book now",
+        ">Click here to get started."
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "WebPage",
+        "WPHeader",
+        "SiteNavigationElement",
+        "WPFooter"
+      ],
+      "hasTrustSignals": true,
+      "testimonialCount": 0
+    }
+  ],
+  "findings": [
+    {
+      "id": "local-no-localbusiness-schema",
+      "category": "localSeo",
+      "severity": "high",
+      "title": "No LocalBusiness structured data found",
+      "summary": "The site has no LocalBusiness (or equivalent) JSON-LD schema markup.",
+      "whyItMatters": "LocalBusiness schema is how you formally tell Google: \"This is a local business, here is our address, phone, hours, and category.\" It directly powers your Google Business Profile integration and Knowledge Panel data.",
+      "recommendation": "Add a LocalBusiness JSON-LD block to the homepage. Include: name, address, phone, url, openingHours, and geo coordinates. Use schema.org/LocalBusiness as the base type and a more specific subtype if applicable.",
+      "impactLevel": "HIGH",
+      "impactReason": "LocalBusiness schema is a key signal for Google Local Pack placement",
+      "estimatedBusinessEffect": "Reduced local pack visibility and fewer rich result features in Google Search"
+    },
+    {
+      "id": "local-no-address-homepage",
+      "category": "localSeo",
+      "severity": "medium",
+      "title": "No physical address detected on homepage",
+      "summary": "www.alaskanac.com homepage does not appear to display a business address.",
+      "whyItMatters": "NAP (Name, Address, Phone) consistency is a core local SEO signal. Google uses address presence to confirm local relevance and to match you with map listings.",
+      "recommendation": "Display your full business address in the site footer and on the homepage. Mark it up with LocalBusiness schema for extra credit.",
+      "impactLevel": "MEDIUM",
+      "impactReason": "NAP consistency across the web and homepage is a local ranking factor",
+      "estimatedBusinessEffect": "Weaker local pack signals; users can't confirm the business location"
+    },
+    {
+      "id": "local-no-map",
+      "category": "localSeo",
+      "severity": "medium",
+      "title": "No map embed or directions link found",
+      "summary": "No Google Maps embed or \"Get Directions\" link was detected anywhere on the site.",
+      "whyItMatters": "A map embed reinforces physical location signals, helps mobile users get directions instantly, and contributes to local relevance signals for Google.",
+      "recommendation": "Embed a Google Maps iframe on the contact page. Also add a \"Get Directions\" button linked to your Google Maps listing.",
+      "impactLevel": "MEDIUM",
+      "impactReason": "Embedded maps reduce friction for customers who want to visit in person",
+      "estimatedBusinessEffect": "Increased drop-off from intent-to-visit users; lost foot traffic"
+    },
+    {
+      "id": "conversion-no-form",
+      "category": "conversion",
+      "severity": "medium",
+      "title": "No contact form found on the site",
+      "summary": "No lead capture form was detected on any page.",
+      "whyItMatters": "Not every visitor is ready to call. A contact form captures leads from visitors who prefer to inquire by email, who are outside business hours, or who want to provide details before calling.",
+      "recommendation": "Add a contact/inquiry form to the contact page and ideally the homepage. Keep it short: name, phone, service needed, preferred callback time.",
+      "impactLevel": "MEDIUM",
+      "impactReason": "No site-wide forms means there is no async lead capture path",
+      "estimatedBusinessEffect": "All leads must call or email directly; visitors who prefer forms are lost"
+    },
+    {
+      "id": "visual-no-hero-clarity",
+      "category": "conversion",
+      "severity": "medium",
+      "title": "Hero section does not clearly communicate what the business offers",
+      "summary": "H1 exists but is below the fold: \"Air Conditioning Services in Arizona\"",
+      "whyItMatters": "Visitors decide whether to stay or leave within seconds. A clear H1 headline stating what you do, where you do it, and what to do next dramatically reduces bounce rates from local searches.",
+      "recommendation": "Write an H1 that answers three questions: What do you do? Where do you serve? What should the visitor do? Example: \"Expert Roof Repairs in Dallas, TX — Call for a Free Estimate.\"",
+      "affectedUrls": [
+        "https://www.alaskanac.com/"
+      ],
+      "impactLevel": "MEDIUM",
+      "impactReason": "An unclear hero message means visitors don't immediately know what the business offers",
+      "estimatedBusinessEffect": "Higher bounce rate from confused first-time visitors"
+    },
+    {
+      "id": "lh-lcp-needs-work",
+      "category": "technical",
+      "severity": "medium",
+      "title": "Largest Contentful Paint needs improvement (2.8s)",
+      "summary": "LCP is 2.8s — target is under 2.5s.",
+      "whyItMatters": "LCP is a Core Web Vitals metric used by Google for ranking. Reducing it improves both SEO and perceived load speed.",
+      "recommendation": "Compress the hero image, use next-gen formats (WebP/AVIF), and preload the LCP image element.",
+      "affectedUrls": [
+        "https://www.alaskanac.com/"
+      ],
+      "impactLevel": "LOW",
+      "impactReason": "LCP is slightly above target but not severely slow",
+      "estimatedBusinessEffect": "Minor mobile user experience degradation"
+    },
+    {
+      "id": "technical-poor-image-alt",
+      "category": "technical",
+      "severity": "low",
+      "title": "32% of images are missing alt text",
+      "summary": "72 of 227 images across the site have no alt attribute.",
+      "whyItMatters": "Alt text helps Google understand image content — contributing to Google Image Search visibility and overall page relevance. It's also an accessibility requirement (ADA).",
+      "recommendation": "Add descriptive alt text to all images. For local businesses: include the service and location in alt text for hero images (e.g., \"roof replacement Austin TX\").",
+      "impactLevel": "LOW",
+      "impactReason": "Missing alt text limits image search visibility and accessibility",
+      "estimatedBusinessEffect": "Missed image search traffic; minor accessibility barrier"
+    },
+    {
+      "id": "trust-no-about-page",
+      "category": "trust",
+      "severity": "medium",
+      "title": "No About or Team page found",
+      "summary": "No \"About Us\" or team page was detected on the site.",
+      "whyItMatters": "Local customers often want to know who they're inviting into their home or trusting with their business. An About page humanizes your brand and builds credibility.",
+      "recommendation": "Add an About page that tells your story: how long you've been in business, who your team is, what makes you different, and why you care about the work you do. Include real photos of your team.",
+      "impactLevel": "LOW",
+      "impactReason": "About pages build credibility but are not critical to direct conversion",
+      "estimatedBusinessEffect": "Marginally lower trust for prospects who research the business before contacting"
+    },
+    {
+      "id": "trust-no-gallery",
+      "category": "trust",
+      "severity": "medium",
+      "title": "No gallery or portfolio page found",
+      "summary": "No gallery, portfolio, or before/after page was detected.",
+      "whyItMatters": "For trade businesses (roofers, remodelers, landscapers, etc.) and beauty services, showing your work is one of the strongest trust signals available. \"Show, don't tell.\"",
+      "recommendation": "Add a gallery, portfolio, or \"Our Work\" page with photos of real completed jobs. For each image, add a descriptive alt text (e.g., \"roof replacement Austin TX\") for SEO benefit.",
+      "impactLevel": "LOW",
+      "impactReason": "Gallery pages help visual businesses but are not a universal conversion factor",
+      "estimatedBusinessEffect": "Missed opportunity to showcase work quality; affects visually-driven decisions"
+    },
+    {
+      "id": "visual-no-trust-signals-visible",
+      "category": "trust",
+      "severity": "medium",
+      "title": "No visible trust signals near the top of the homepage",
+      "summary": "No trust signal keywords near top of page",
+      "whyItMatters": "Trust signals (star ratings, review counts, \"Licensed & Insured\") reduce hesitation for first-time visitors. Their absence makes the site feel less credible than competitors who display them prominently.",
+      "recommendation": "Add a trust bar below the hero section: number of Google reviews + star rating, years in business, license/insurance status, and any industry certifications.",
+      "affectedUrls": [
+        "https://www.alaskanac.com/"
+      ],
+      "impactLevel": "MEDIUM",
+      "impactReason": "Trust signals hidden below the fold are rarely seen before users decide to leave",
+      "estimatedBusinessEffect": "Trust content is not doing its job; conversion rate is lower than it should be"
+    },
+    {
+      "id": "gbp-no-map-embed",
+      "category": "localSeo",
+      "severity": "medium",
+      "title": "No Google Maps embed found",
+      "summary": "No embedded Google Map was detected on any page of the site.",
+      "whyItMatters": "An embedded map reinforces the physical location to Google and helps visitors find the business — both improve local pack rankings.",
+      "recommendation": "Add a Google Maps embed to the contact page or homepage using the \"Embed a map\" option inside Google Maps."
+    }
+  ],
+  "scores": {
+    "technical": {
+      "value": 96,
+      "label": "Strong",
+      "rationale": [
+        "[Low] 32% of images are missing alt text",
+        "[+] robots.txt is present",
+        "[+] XML sitemap found",
+        "[+] All key pages have title tags",
+        "[+] All key pages have meta descriptions",
+        "[+] No broken pages found"
+      ]
+    },
+    "localSeo": {
+      "value": 50,
+      "label": "Leaking Opportunity",
+      "rationale": [
+        "[Medium] No physical address detected on homepage",
+        "[High] No LocalBusiness structured data found",
+        "[Medium] No map embed or directions link found",
+        "[Medium] No Google Maps embed found",
+        "[+] Phone number present on homepage",
+        "[+] Business hours found on site",
+        "[+] 4 location/service-area page(s) found"
+      ]
+    },
+    "conversion": {
+      "value": 90,
+      "label": "Strong",
+      "rationale": [
+        "[Medium] No contact form found on the site",
+        "[+] Homepage has 4 call-to-action(s)",
+        "[+] Phone number present on homepage",
+        "[+] Booking or quote CTA detected",
+        "[+] 100% of key pages have CTAs"
+      ]
+    },
+    "content": {
+      "value": 100,
+      "label": "Strong",
+      "rationale": [
+        "[+] Homepage has strong content depth (560 words)",
+        "[+] 2 service page(s) found",
+        "[+] 4 location/service-area page(s) found",
+        "[+] Average page content is solid (756 words/page)"
+      ]
+    },
+    "trust": {
+      "value": 80,
+      "label": "Solid",
+      "rationale": [
+        "[Medium] No About or Team page found",
+        "[Medium] No gallery or portfolio page found",
+        "[+] Site is served over HTTPS",
+        "[+] 121 testimonials or reviews found",
+        "[+] Homepage displays trust signals"
+      ]
+    },
+    "overall": {
+      "value": 80,
+      "label": "Solid",
+      "rationale": [
+        "Technical (25%): 96 → Strong",
+        "Local SEO (30%): 50 → Leaking Opportunity",
+        "Conversion (25%): 90 → Strong",
+        "Content (10%): 100 → Strong",
+        "Trust (10%): 80 → Solid"
+      ]
+    }
+  },
+  "quickWins": [
+    "Add a LocalBusiness JSON-LD block to the homepage. Include: name, address, phone, url, openingHours, and geo coordinates. Use schema.org/LocalBusiness as the base type and a more specific subtype if applicable.",
+    "Display your full business address in the site footer and on the homepage. Mark it up with LocalBusiness schema for extra credit.",
+    "Embed a Google Maps iframe on the contact page. Also add a \"Get Directions\" button linked to your Google Maps listing.",
+    "Add a Google Maps embed to the contact page or homepage using the \"Embed a map\" option inside Google Maps.",
+    "Add a contact/inquiry form to the contact page and ideally the homepage. Keep it short: name, phone, service needed, preferred callback time."
+  ],
+  "moneyLeaks": [
+    "The site has no LocalBusiness (or equivalent) JSON-LD schema markup."
+  ],
+  "lighthouse": [
+    {
+      "url": "https://www.alaskanac.com/",
+      "performanceScore": 91,
+      "seoScore": 92,
+      "accessibilityScore": 90,
+      "firstContentfulPaint": 2358,
+      "largestContentfulPaint": 2761,
+      "totalBlockingTime": 0,
+      "cumulativeLayoutShift": 0.010302,
+      "speedIndex": 4406
+    }
+  ],
+  "visual": {
+    "pagesAnalyzed": [
+      {
+        "url": "https://www.alaskanac.com/",
+        "pageType": "homepage",
+        "screenshotPath": "C:\\Users\\oscar\\AppData\\Roaming\\local-seo-scanner\\reports\\www.alaskanac.com_1777971649416\\screenshots\\homepage.png",
+        "screenshotFile": "homepage.png",
+        "checks": {
+          "hasAboveFoldCta": {
+            "passed": true,
+            "detail": "CTA found: \"BOOK NOW\""
+          },
+          "hasPhoneVisible": {
+            "passed": true,
+            "detail": "Phone tel: link visible above the fold"
+          },
+          "hasTrustSignalsVisible": {
+            "passed": false,
+            "detail": "No trust signal keywords near top of page"
+          },
+          "hasHeroClarity": {
+            "passed": false,
+            "detail": "H1 exists but is below the fold: \"Air Conditioning Services in Arizona\""
+          }
+        }
+      },
+      {
+        "url": "https://www.alaskanac.com/tucson-az/",
+        "pageType": "service",
+        "screenshotPath": "C:\\Users\\oscar\\AppData\\Roaming\\local-seo-scanner\\reports\\www.alaskanac.com_1777971649416\\screenshots\\service.png",
+        "screenshotFile": "service.png",
+        "checks": {
+          "hasAboveFoldCta": {
+            "passed": true,
+            "detail": "Not checked (homepage only)"
+          },
+          "hasPhoneVisible": {
+            "passed": true,
+            "detail": "Not checked (homepage only)"
+          },
+          "hasTrustSignalsVisible": {
+            "passed": true,
+            "detail": "Not checked (homepage only)"
+          },
+          "hasHeroClarity": {
+            "passed": true,
+            "detail": "Not checked (homepage only)"
+          }
+        }
+      }
+    ]
+  },
+  "scoreConfidence": {
+    "level": "High",
+    "reason": "10 pages crawled, homepage found, key pages found (service, location), Lighthouse completed, and visual analysis completed."
+  },
+  "revenueImpact": {
+    "estimatedLeadLossRange": {
+      "low": 3,
+      "high": 10
+    },
+    "estimatedRevenueLossRange": {
+      "low": 400,
+      "high": 10000
+    },
+    "currencySymbol": "$",
+    "impactDrivers": [
+      "No structured business data for Google — harder to appear in local map results",
+      "Business address not on the homepage — local customers cannot verify the location quickly",
+      "No embedded map — visitors must leave the site to find directions",
+      "No contact form anywhere on the site — enquiries outside business hours are lost",
+      "Hero section does not clearly communicate what the business offers"
+    ],
+    "explanation": "Based on the issues found, this website may be losing an estimated 3–10 potential leads per month due to weak local search signals. This is a directional estimate only — actual results depend on traffic volume, market, and competition.",
+    "assumptions": [
+      "Business type: contracting / home services",
+      "Estimated lead value assumed at $600–$2,500 per converted customer (conservative range)",
+      "Lead-to-customer conversion rate assumed at 20–40% of enquiries",
+      "Lead loss estimates are based on detected website issues only — actual traffic and market conditions are not known",
+      "Revenue estimates assume current organic and direct traffic levels; paid traffic is not considered",
+      "Confidence is medium — estimate is directional; consult an SEO professional for a detailed projection",
+      "All figures are estimates and should not be treated as guaranteed outcomes"
+    ],
+    "confidence": "Medium"
+  },
+  "roadmap": [
+    {
+      "priority": 1,
+      "title": "Make it immediately clear who you are and why visitors should stay",
+      "whyItMatters": "The first thing a visitor sees on your homepage determines whether they stay or leave. If there is no clear headline, photo, or trust signal above the fold (before scrolling), many visitors will bounce without ever learning about your services.",
+      "plainEnglishFix": "Update your homepage hero section to include: a clear headline stating what you do and where, a short sub-heading with your key selling point, a visible phone number or CTA button, and a recognizable photo (your team, your work, or your location).",
+      "impact": "Medium",
+      "effort": "Medium",
+      "category": "conversion",
+      "affectedUrls": [
+        "https://www.alaskanac.com/"
+      ],
+      "sourceFindingIds": [
+        "visual-no-hero-clarity",
+        "visual-no-trust-signals-visible"
+      ]
+    },
+    {
+      "priority": 2,
+      "title": "Tell Google exactly what kind of business you are and where you operate",
+      "whyItMatters": "Google uses structured data to display your business name, address, phone number, and hours directly in search results. Without it, you are less likely to appear in local map results and Google may mis-categorize your business.",
+      "plainEnglishFix": "Add \"LocalBusiness\" structured data to your homepage. This is a small piece of code (or a plugin setting in WordPress) that gives Google your business name, type, address, phone, and opening hours in a format it can reliably read.",
+      "impact": "High",
+      "effort": "Medium",
+      "category": "localSeo",
+      "sourceFindingIds": [
+        "local-no-localbusiness-schema"
+      ]
+    },
+    {
+      "priority": 3,
+      "title": "Add your address, hours, and a map to make your location easy to find",
+      "whyItMatters": "Local customers need to know where you are, when you are open, and how to get there. If this information is missing or buried, visitors will go to a competitor whose website answers these questions immediately.",
+      "plainEnglishFix": "Add your full address and business hours to your homepage and contact page. Embed a Google Map so visitors can get directions with one click. If you serve multiple areas, create a dedicated page for each location.",
+      "impact": "Medium",
+      "effort": "Low",
+      "category": "localSeo",
+      "sourceFindingIds": [
+        "local-no-address-homepage",
+        "local-no-map"
+      ]
+    },
+    {
+      "priority": 4,
+      "title": "Add a contact form so people can reach you any time of day",
+      "whyItMatters": "Not everyone wants to call — many visitors prefer to send a message, especially outside business hours. Without a contact form you are missing enquiries from people who would have hired you.",
+      "plainEnglishFix": "Add a simple contact form to your contact page and ideally your homepage too. Ask only for the essentials: name, phone or email, and a brief message. Make sure form submissions arrive in an inbox you check regularly.",
+      "impact": "Medium",
+      "effort": "Medium",
+      "category": "conversion",
+      "sourceFindingIds": [
+        "conversion-no-form"
+      ]
+    },
+    {
+      "priority": 5,
+      "title": "Build visible credibility so visitors trust you before they call",
+      "whyItMatters": "Visitors decide within seconds whether a business looks trustworthy. Without reviews, credentials, photos, or an About page, many people will leave rather than risk contacting an unknown company.",
+      "plainEnglishFix": "Add real customer reviews or testimonials to your homepage. Create an About page that introduces your team and story. Add photos of your work, vehicle, or premises. If your site is not yet on HTTPS (the padlock), ask your hosting provider to enable SSL — it is usually free.",
+      "impact": "Medium",
+      "effort": "Medium",
+      "category": "trust",
+      "sourceFindingIds": [
+        "trust-no-about-page",
+        "trust-no-gallery"
+      ]
+    },
+    {
+      "priority": 6,
+      "title": "Speed up your website so visitors don't leave before it loads",
+      "whyItMatters": "A slow website frustrates visitors and hurts your Google ranking. Most people will leave a page if it takes more than 3 seconds to load, meaning you are losing leads before they even see your services.",
+      "plainEnglishFix": "Work with your web developer or hosting provider to compress images, reduce unnecessary scripts, and enable caching. If you use WordPress or a similar platform, a performance plugin can often fix this quickly.",
+      "impact": "Medium",
+      "effort": "High",
+      "category": "technical",
+      "affectedUrls": [
+        "https://www.alaskanac.com/"
+      ],
+      "sourceFindingIds": [
+        "lh-lcp-needs-work"
+      ]
+    },
+    {
+      "priority": 7,
+      "title": "Add descriptions to your images so Google and screen readers can understand them",
+      "whyItMatters": "Images without alt text are invisible to Google — and to visitors using screen readers. Properly described images add keyword relevance and improve accessibility.",
+      "plainEnglishFix": "For each image on your site, add a short description (alt text) explaining what the image shows. For example: \"Roofing crew replacing shingles on a home in Dallas.\" Your CMS likely has an alt text field when you upload or edit images.",
+      "impact": "Low",
+      "effort": "Low",
+      "category": "technical",
+      "sourceFindingIds": [
+        "technical-poor-image-alt"
+      ]
+    }
+  ],
+  "seoOpportunities": [],
+  "gbpCheck": {
+    "found": true,
+    "apiQueried": true,
+    "onSiteMapEmbed": false,
+    "onSiteReviewLink": true,
+    "napConsistency": {
+      "phoneMatch": true
+    },
+    "placeId": "ChIJQWnLxGtx1oYR-AKYEEAAdY0",
+    "businessName": "Alaskan Air Conditioning & Heating Tucson",
+    "address": "2305 N 7th Ave, Tucson, AZ 85705, USA",
+    "phone": "(520) 815-5555",
+    "rating": 4.7,
+    "reviewCount": 3639,
+    "businessStatus": "OPERATIONAL",
+    "websiteUrl": "https://www.alaskanac.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=*575*alaskan-air-tucson"
+  },
+  "design": {
+    "hasViewportMeta": true,
+    "tableCount": 0,
+    "inlineStyleCount": 6,
+    "googleFontFamilies": [
+      "Lato%3A400%2C700"
+    ],
+    "hasIconLibrary": true,
+    "hasAnimationLibrary": false,
+    "frameworkHint": "wordpress",
+    "svgCount": 3,
+    "cssFileCount": 2,
+    "hasCustomProperties": true,
+    "designEra": "modern",
+    "designScore": 100,
+    "issues": [],
+    "strengths": [
+      "Mobile viewport configured",
+      "Custom font loaded: Lato%3A400%2C700",
+      "Icon library in use — visual hierarchy supported",
+      "CSS custom properties in use — modern, maintainable stylesheet",
+      "WordPress — good plugin ecosystem for SEO"
+    ]
+  },
+  "artifacts": {
+    "jsonPath": "C:\\Users\\oscar\\AppData\\Roaming\\local-seo-scanner\\reports\\www.alaskanac.com_1777971649416\\report.json",
+    "htmlPath": "C:\\Users\\oscar\\AppData\\Roaming\\local-seo-scanner\\reports\\www.alaskanac.com_1777971649416\\report.html",
+    "blueprintPath": "C:\\Users\\oscar\\AppData\\Roaming\\local-seo-scanner\\reports\\www.alaskanac.com_1777971649416\\blueprint.md",
+    "screenshotPaths": {
+      "homepage": "C:\\Users\\oscar\\AppData\\Roaming\\local-seo-scanner\\reports\\www.alaskanac.com_1777971649416\\screenshots\\homepage.png",
+      "service": "C:\\Users\\oscar\\AppData\\Roaming\\local-seo-scanner\\reports\\www.alaskanac.com_1777971649416\\screenshots\\service.png"
+    }
+  }
+}

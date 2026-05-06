@@ -1,0 +1,86 @@
+.hero {
+  position: relative;
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-blue) 100%);
+  padding-top: var(--space-20);
+  padding-bottom: var(--space-20);
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    min-height: 90vh;
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
+  }
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-12);
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.badge {}
+
+.h1 {
+  font-size: var(--text-display-size);
+  font-weight: var(--text-display-weight);
+  color: var(--color-white);
+  line-height: var(--text-display-lh);
+  letter-spacing: var(--text-display-ls);
+}
+
+.sub {
+  font-size: var(--text-body-lg-size);
+  line-height: var(--text-body-lg-lh);
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 500px;
+}
+
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.trustLine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.trustLine span {
+  white-space: nowrap;
+}
+
+/* SpinningBadge column — hidden on mobile, centered on desktop */
+.spinWrapper {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .spinWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,79 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.field label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 12px 16px;
+  font-size: var(--text-body-size);
+  font-family: var(--font-base);
+  color: var(--color-text);
+  background: var(--color-white);
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--color-blue);
+  background: var(--color-blue-light);
+}
+
+.field input[aria-invalid="true"],
+.field select[aria-invalid="true"] {
+  border-color: var(--color-error);
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--color-gray-600);
+}
+
+.error {
+  font-size: 13px;
+  color: var(--color-error);
+  font-weight: 700;
+}
+
+.success {
+  padding: var(--space-8);
+  background: #EBF7EE;
+  border: 2px solid var(--color-success);
+  border-radius: var(--radius-lg);
+  color: var(--color-text);
+}
+
+.success h3 {
+  font-size: var(--text-h3-size);
+  font-weight: 700;
+  color: var(--color-success);
+  margin-bottom: var(--space-3);
+}
+
+.success a {
+  color: var(--color-blue);
+  font-weight: 700;
+}

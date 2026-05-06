@@ -1,0 +1,58 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-8);
+  background: var(--color-white);
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  border-color: var(--color-blue);
+  box-shadow: 0 8px 32px rgba(27, 108, 168, 0.12);
+  transform: translateY(-2px);
+}
+
+.badge {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  padding: 4px 10px;
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: var(--radius-full);
+}
+
+.icon {
+  font-size: 32px;
+  color: var(--color-blue);
+  line-height: 1;
+}
+
+.name {
+  font-size: var(--text-h3-size);
+  font-weight: var(--text-h3-weight);
+  color: var(--color-text);
+  line-height: var(--text-h3-lh);
+}
+
+.tagline {
+  font-size: var(--text-body-size);
+  color: var(--color-gray-600);
+  flex: 1;
+}
+
+.cta {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-blue);
+}

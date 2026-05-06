@@ -1,0 +1,48 @@
+.hero {
+  background: var(--color-blue-light);
+  padding-top: var(--space-10);
+  padding-bottom: var(--space-10);
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.h1 {
+  font-size: var(--text-h1-size);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-top: var(--space-4);
+}
+
+.sub {
+  margin-top: var(--space-4);
+  font-size: var(--text-body-lg-size);
+  color: var(--color-gray-600);
+  max-width: 680px;
+}
+
+.address {
+  margin-top: var(--space-4);
+  font-size: 15px;
+  color: var(--color-text);
+}
+
+.address a {
+  color: var(--color-blue);
+  font-weight: 700;
+}
+
+.sectionHeading {
+  font-size: var(--text-h2-size);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.grid {
+  margin-top: var(--space-8);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,25 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 4px 10px;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-size: var(--text-badge-size);
+  font-weight: var(--text-badge-weight);
+  letter-spacing: var(--text-badge-ls);
+  text-transform: var(--text-badge-transform);
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+.badge::before {
+  content: '●';
+  font-size: 8px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}

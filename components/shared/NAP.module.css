@@ -1,0 +1,28 @@
+.nap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  font-style: normal;
+  font-size: var(--text-footer-size);
+  line-height: var(--text-footer-lh);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.name {
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.phone {
+  color: var(--color-orange-light);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.phone:hover {
+  text-decoration: underline;
+}
+
+.address {
+  color: rgba(255, 255, 255, 0.65);
+}
