@@ -9,6 +9,8 @@
   width: 100%;
   height: 100%;
   animation: spinRotate 20s linear infinite;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .text {

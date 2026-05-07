@@ -30,13 +30,20 @@
 
 .brand {}
 
-.logoLink { text-decoration: none; }
+.logoLink { text-decoration: none; display: inline-block; }
 
-.logoText {
-  font-size: 18px;
-  font-weight: 900;
-  color: var(--color-white);
-  letter-spacing: -0.02em;
+.logoWrapper {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.logoImg {
+  height: 58px;
+  width: auto;
+  display: block;
 }
 
 .tagline {

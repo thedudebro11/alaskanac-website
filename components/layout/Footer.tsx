@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { BUSINESS } from '@/content/business';
 import { NAP } from '@/components/shared/NAP';
 import styles from './Footer.module.css';
@@ -27,8 +28,16 @@ export function Footer() {
         <div className={styles.grid}>
           {/* Brand */}
           <div className={styles.brand}>
-            <Link href="/" className={styles.logoLink}>
-              <span className={styles.logoText}>Alaskan Air Conditioning</span>
+            <Link href="/" className={styles.logoLink} aria-label="Alaskan Air Conditioning — Home">
+              <div className={styles.logoWrapper}>
+                <Image
+                  src="/images/logo.png"
+                  alt="Alaskan Air Conditioning & Heating"
+                  width={900}
+                  height={742}
+                  className={styles.logoImg}
+                />
+              </div>
             </Link>
             <p className={styles.tagline}>
               The Alaskan way, not the cheap way.

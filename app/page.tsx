@@ -4,6 +4,7 @@ import { TrustBar } from '@/components/home/TrustBar';
 import { ServicesGrid } from '@/components/home/ServicesGrid';
 import { WhyChooseUs } from '@/components/home/WhyChooseUs';
 import { TestimonialBlock } from '@/components/home/TestimonialBlock';
+import { IceDivider } from '@/components/shared/IceDivider';
 import { MapEmbed } from '@/components/shared/MapEmbed';
 import { SchemaScript } from '@/components/shared/SchemaScript';
 import { generateHVACBusinessSchema, generateWebSiteSchema } from '@/lib/schema';
@@ -20,10 +21,10 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const mapSrc = BUSINESS.tucson.mapsEmbedSrc.replace(
-    'MAPS_API_KEY',
-    process.env.MAPS_API_KEY ?? ''
-  );
+  const apiKey = process.env.MAPS_API_KEY ?? '';
+  const mapSrc = apiKey
+    ? BUSINESS.tucson.mapsEmbedSrc.replace('MAPS_API_KEY', apiKey)
+    : null;
 
   return (
     <>
@@ -31,28 +32,42 @@ export default function HomePage() {
       <SchemaScript schema={generateWebSiteSchema()} />
 
       <Hero />
+      {/* Hero (navy) → TrustBar (blue) */}
+      <IceDivider fill="#1B6CA8" variant={1} />
       <TrustBar />
+      {/* TrustBar (blue) → ServicesGrid (white) */}
+      <IceDivider fill="#FFFFFF" variant={2} />
       <ServicesGrid />
+      {/* ServicesGrid (white) → WhyChooseUs (navy) */}
+      <IceDivider fill="#0C1A2E" variant={3} />
       <WhyChooseUs />
+      {/* WhyChooseUs (navy) → TestimonialBlock (gray) */}
+      <IceDivider fill="#F5F7FA" variant={1} />
       <TestimonialBlock />
 
-      <section className="section--navy">
-        <div className="container">
-          <h2 style={{
-            textAlign: 'center',
-            marginBottom: 'var(--space-8)',
-            fontSize: 'var(--text-h2-size)',
-            fontWeight: 700,
-            color: 'var(--color-white)',
-          }}>
-            Find Us in Tucson, AZ
-          </h2>
-          <MapEmbed
-            src={mapSrc}
-            title="Alaskan Air Conditioning — 2305 N 7th Ave, Tucson, AZ 85705"
-          />
-        </div>
-      </section>
+      {mapSrc && (
+        <>
+          {/* TestimonialBlock (gray) → Map section (navy) */}
+          <IceDivider fill="#0C1A2E" variant={2} />
+          <section className="section--navy">
+            <div className="container">
+              <h2 style={{
+                textAlign: 'center',
+                marginBottom: 'var(--space-8)',
+                fontSize: 'var(--text-h2-size)',
+                fontWeight: 700,
+                color: 'var(--color-white)',
+              }}>
+                Find Us in Tucson, AZ
+              </h2>
+              <MapEmbed
+                src={mapSrc}
+                title="Alaskan Air Conditioning — 2305 N 7th Ave, Tucson, AZ 85705"
+              />
+            </div>
+          </section>
+        </>
+      )}
     </>
   );
 }

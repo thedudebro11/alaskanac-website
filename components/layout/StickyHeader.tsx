@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { BUSINESS } from '@/content/business';
 import { EmergencyBadge } from '@/components/shared/EmergencyBadge';
@@ -30,8 +31,16 @@ export function StickyHeader() {
         <div className={`container ${styles.inner}`}>
           {/* Logo */}
           <Link href="/" className={styles.logo} aria-label="Alaskan Air Conditioning — Home">
-            {/* ⚠️ CLIENT INPUT: Replace with SVG logo */}
-            <span className={styles.logoText}>Alaskan AC</span>
+            <div className={styles.logoWrapper}>
+              <Image
+                src="/images/logo.png"
+                alt="Alaskan Air Conditioning & Heating"
+                width={900}
+                height={742}
+                className={styles.logoImg}
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Nav */}

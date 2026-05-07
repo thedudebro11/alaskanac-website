@@ -2,14 +2,55 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid transparent;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: background-color 0.3s ease,
+              box-shadow 0.3s ease,
+              border-color 0.3s ease,
+              backdrop-filter 0.3s ease;
 }
 
 .scrolled {
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-  border-bottom-color: var(--color-gray-200);
+  background-color: rgba(12, 26, 46, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.scrolled .navLink {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.scrolled .navLink:hover {
+  color: var(--color-white);
+  border-bottom-color: var(--color-orange);
+}
+
+.scrolled .logoWrapper {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 3px 8px;
+}
+
+.scrolled .phoneLink {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.scrolled .phoneLink:hover {
+  color: var(--color-white);
+}
+
+.scrolled .hamburger {
+  color: var(--color-white);
+}
+
+.scrolled .hamburger:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.scrolled .mobilePhone {
+  filter: brightness(0) invert(1);
 }
 
 .inner {
@@ -24,11 +65,18 @@
   text-decoration: none;
 }
 
-.logoText {
-  font-size: 20px;
-  font-weight: 900;
-  color: var(--color-blue);
-  letter-spacing: -0.02em;
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 3px 8px;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.logoImg {
+  height: 46px;
+  width: auto;
+  display: block;
 }
 
 .desktopNav {

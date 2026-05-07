@@ -3,6 +3,7 @@ import { Lato } from 'next/font/google';
 import '@/styles/globals.css';
 import { StickyHeader } from '@/components/layout/StickyHeader';
 import { Footer } from '@/components/layout/Footer';
+import { SnowPhysics } from '@/components/shared/SnowPhysics';
 
 const lato = Lato({
   weight: ['400', '700', '900'],
@@ -37,7 +38,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={lato.variable}>
-      <body>
+      <body className={lato.className}>
+        <noscript>
+          <style>{`
+            .reveal, .reveal--left, .reveal--right, .reveal--scale {
+              opacity: 1 !important;
+              transform: none !important;
+            }
+          `}</style>
+        </noscript>
+        <SnowPhysics />
         <StickyHeader />
         <main>{children}</main>
         <Footer />

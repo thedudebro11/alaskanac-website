@@ -32,7 +32,9 @@
 }
 
 .icon {
-  font-size: 32px;
+  display: flex;
+  align-items: center;
+  color: var(--color-orange);
   line-height: 1;
 }
 

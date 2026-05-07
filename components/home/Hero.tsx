@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { BUSINESS } from '@/content/business';
 import { BookingModal } from '@/components/shared/BookingModal';
 import { ReviewBadge } from '@/components/shared/ReviewBadge';
@@ -41,13 +42,20 @@ export function Hero() {
           </p>
         </div>
 
-        {/*
-          ⚠️ CLIENT INPUT: Replace SpinningBadge with next/image hero photo when available.
-          File: /public/images/hero-van-team.webp  (min 1600px wide, < 120KB WebP)
-          Use priority prop for LCP optimization. SpinningBadge can move to a corner overlay.
-        */}
-        <div className={styles.spinWrapper} aria-hidden="true">
-          <SpinningBadge />
+        {/* Replace logo.png with hero-van-team.webp (min 1600px wide) when client delivers it */}
+        <div className={styles.imageWrapper}>
+          <Image
+            src="/images/logo.png"
+            alt="Alaskan Air Conditioning & Heating — Tucson AZ"
+            width={900}
+            height={742}
+            priority
+            sizes="(max-width: 767px) 0px, (max-width: 1200px) 50vw, 640px"
+            className={styles.heroImage}
+          />
+          <div className={styles.spinOverlay} aria-hidden="true">
+            <SpinningBadge />
+          </div>
         </div>
       </div>
     </section>

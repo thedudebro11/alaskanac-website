@@ -9,13 +9,21 @@
   border-radius: var(--radius-lg);
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  transition: border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
 }
 
 .card:hover {
   border-color: var(--color-blue);
-  box-shadow: 0 8px 32px rgba(27, 108, 168, 0.12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-6px);
+}
+
+.card:active {
   transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .badge {
@@ -33,7 +41,8 @@
 }
 
 .icon {
-  font-size: 32px;
+  display: flex;
+  align-items: center;
   color: var(--color-blue);
   line-height: 1;
 }
